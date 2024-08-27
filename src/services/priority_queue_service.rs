@@ -2,7 +2,7 @@ use redis::aio::ConnectionManager;
 use redis::{AsyncCommands, Client};
 use std::time::{SystemTime, UNIX_EPOCH};
 use log::{info, warn, error};
-
+extern crate redis;
 
 pub struct PriorityQueueService {
     connection_manager: ConnectionManager,

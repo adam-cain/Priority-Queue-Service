@@ -1,6 +1,9 @@
 /target/
+Cargo.lock
+
 # Environment variable files
 .env
 
 # Ignore the actual .env file but keep the example
 !.env.example
+
