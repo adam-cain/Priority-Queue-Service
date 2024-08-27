@@ -1,6 +1,3 @@
-Here's a README file that you can use for your project:
-
-
 # Priority Queue Service
 
 This project implements a Priority Queue Service using Rust, Actix Web, and Redis. The service allows you to manage URLs with different priorities, handle retries with exponential backoff, and manage dead-letter queues for failed retries. It provides a RESTful API for adding URLs to the queue, fetching URLs for processing, and retrying failed URLs.
