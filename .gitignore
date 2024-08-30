@@ -7,3 +7,5 @@ Cargo.lock
 # Ignore the actual .env file but keep the example
 !.env.example
 
+# Docker
+.dockerignore
